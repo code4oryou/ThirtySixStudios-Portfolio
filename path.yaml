@@ -4,8 +4,8 @@ create react component - DONE ✔
 download images from thirtysixstudio - DONE ✔
 make images in an array - DONE ✔
 create canvas component
-  load first 150 images and show in canvas
-  animate canvas 
+  load first 150 images and show in canvas - DONE ✔
+  animate canvas - DONE ✔
   make canvas dynamic so that it can loads 150 images from desired index
   reuse the canvas component to create a new canvas as many times as needed
 
