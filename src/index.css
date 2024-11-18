@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 body{
-    /* background-color: #fd2c2a; */
-    background-color: black;
+    background-color: #fd2c2a;
+    /* background-color: black; */
+}
+
+canvas{
+    pointer-events: none;
 }
