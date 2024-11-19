@@ -18,6 +18,11 @@ function Canvas({ details }) {
                 setIndex({ value: Math.round(index.value) }); //update the index state with the current value of the animation and round it to the nearest integer such that it doesn't take decimal values
             },
         });
+        gsap.from(canvasRef.current, {
+            opacity: 0,
+            duration: 1,
+            ease: "power2.inOut",
+        });
     });
 
     useEffect(() => {
